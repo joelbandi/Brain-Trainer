@@ -70,7 +70,9 @@
             android:padding="25dp"
             android:background="#f62b2b"
             android:gravity="center"
-            android:tag="a0"/>
+            android:tag="0"
+            android:onClick="answerSelect"
+            android:clickable="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,7 +90,9 @@
             android:padding="25dp"
             android:background="#02ff45"
             android:gravity="center"
-            android:tag="a1"/>
+            android:tag="1"
+            android:onClick="answerSelect"
+            android:clickable="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -106,7 +110,9 @@
             android:padding="25dp"
             android:background="#00ffd0"
             android:gravity="center"
-            android:tag="a2"/>
+            android:tag="2"
+            android:onClick="answerSelect"
+            android:clickable="false" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -124,7 +130,9 @@
             android:padding="25dp"
             android:background="#ffcc00"
             android:gravity="center"
-            android:tag="a3"/>
+            android:tag="3"
+            android:onClick="answerSelect"
+            android:clickable="false" />
 
     </GridLayout>
 
@@ -151,6 +159,7 @@
         android:layout_alignBottom="@+id/timeleft"
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:clickable="false" />
 
 </RelativeLayout>
