@@ -22,7 +22,7 @@
         android:layout_marginTop="29dp"
         android:text="60s"
         android:background="#00e1ff"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:layout_margin="15sp"
         android:padding="15sp"
         android:editable="false" />
@@ -33,7 +33,7 @@
         android:id="@+id/score"
         android:text="0/0"
         android:background="#fbff00"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:padding="15sp"
         android:layout_marginRight="20sp"
         android:layout_marginEnd="20dp"
@@ -156,10 +156,10 @@
         android:layout_height="wrap_content"
         android:text="30+30"
         android:id="@+id/question"
-        android:layout_alignBottom="@+id/timeleft"
-        android:layout_centerHorizontal="true"
         android:textColor="#ffffff"
         android:textSize="30sp"
-        android:clickable="false" />
+        android:clickable="false"
+        android:layout_alignBottom="@+id/timeleft"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
